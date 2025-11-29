@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading {
+            background-color: green;
+            text-align: center;
+            color: white;
+        }
+
+        #b1,
+        #b2 {
+            width: 100px;
+            background-color: black;
+            color: wheat;
+            border-radius: 30px;
+            font-weight: 500;
+        }
+
+        #b2 {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">Is JavaScript is Easy?</h1>
+    <!-- <button onclick="">Welcome</button> -->
+    <!-- inline javaScript -->
+    <button id="b1">YES</button>
+    <button id="b2">NO</button>
+</body>
+<script src="index.js"></script>
+<script>
+    document.getElementById("b1").onclick = function () {
+        document.getElementById("heading").innerHTML = "Yes JavaScrpt is easy guys"
+    };
+    document.getElementById("b2").onclick = function () {
+        document.getElementById("heading").innerHTML = "No, JavaScript is not easy if you are not practice."
+    }
+</script>
+
+</html>

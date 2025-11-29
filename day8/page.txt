@@ -1,0 +1,14 @@
+Html - create the content
+css - style our elements
+js - interaction - script for each elements
+
+inline - same line within html tag
+internal - within html
+external - separate file for js (index.js)
+
+1. create the elements
+2. name the elements
+3. select the elements
+4. change the elements (js)
+
+Document = webpage (3 elements)

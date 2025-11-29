@@ -1,0 +1,22 @@
+Main div = relative = geometry Box = main2
+
+sub div1 = absolute =eraser = sub21
+sub div2 = absolute =eraser = sub22
+sub div3 = absolute =eraser = sub23
+sub div4 = absolute =eraser = sub24
+
+
+Main div = relative = geometry Box = main2
+
+sub div1 = absolute =eraser = sub21
+sub div2 = absolute =eraser = sub22
+sub div3 = absolute =eraser = sub23
+sub div4 = absolute =eraser = sub24
+
+main2 100w x 100h
+
+width 100 (5 + 40 + 5 + 50) = 100
+
+sub21 = 40w x 40h
+sub22 = 50w x 100vh
+
